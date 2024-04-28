@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main">
+   <ScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/home_page"
+        android:layout_width="410dp"
+        android:layout_height="844dp"
+        android:background="#FFFFFF"
+        tools:context=".home">
+
+
+        <View
+            android:id="@+id/line_16"
+            android:layout_width="357dp"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/line16" />
+
+        <View
+            android:id="@+id/ellipse_3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ellipse3" />
+
+        <View
+            android:id="@+id/ellipse_4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="434dp"
+            android:background="@drawable/ellipse4" />
+
+        <TextView
+            android:id="@+id/victoria_gr"
+            android:layout_width="146dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="23dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="top"
+            android:text="victoria" />
+
+        <TextView
+            android:id="@+id/hebour_josh"
+            android:layout_width="116dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="449dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="top"
+            android:text="hebour_josh" />
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="55dp"
+            android:text="Despite current progress in
+#GenderEquality in education, there are still 122
+million girls whose dreams have been cut off.
+School also belongs to girls."
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="290dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/post1" />
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="484dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="In 2015, world leaders agreed to 17
+Sustainable Development Goals that have the power to create
+a better world by 2030."
+            android:textSize="12dp"
+            />
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="290dp"
+            android:background="@drawable/post2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="525dp"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="357dp"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="820dp"
+            android:background="@drawable/line16" />
+
+        <View
+            android:id="@+id/ellipse"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="825dp"
+            android:background="@drawable/pro3" />
+
+        <TextView
+            android:id="@+id/viscos"
+            android:layout_width="116dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="840dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="top"
+            android:text="viscos" />
+        
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:text="Climate change and biodiversity loss are twin crises that
+should be tackled together. Conserving, managing, and
+restoring ecosystems are key to success. By using nature-based
+solutions we can help ecosystems to both mitigate and adapt
+to the #ClimateCrisis."
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="874dp"/>
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="290dp"
+            android:background="@drawable/post3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="970dp"
+            />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="357dp"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="1268dp"
+            android:background="@drawable/line16" />
+
+
+        <View
+            android:id="@+id/ellipse5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="1275dp"
+            android:background="@drawable/pro4" />
+
+
+        <TextView
+            android:id="@+id/hector"
+            android:layout_width="116dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="69dp"
+            android:layout_marginTop="1292dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="top"
+            android:text="hector" />
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:text="Anti-fossil fuel activists and environmental
+defenders in Uganda face repeated harassment, including
+arbitrary arrests, for protesting a planned oil pipeline.
+The project has devastated thousands of people's livelihoods in
+Uganda and risks locking in decades of greenhouse gas
+emissions, contributing to the global climate crisis."
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1320dp"/>
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="290dp"
+            android:background="@drawable/post4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1430dp"
+            />
+
+
+    </RelativeLayout>
+   </ScrollView>
+</FrameLayout>

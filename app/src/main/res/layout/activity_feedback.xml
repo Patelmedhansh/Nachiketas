@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialogbackground"
+    >
+
+    <TextView
+        android:id="@+id/feedback"
+        android:layout_width="250dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Feedback form"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="32dp"
+        />
+
+    <EditText
+        android:id="@+id/feed"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="100dp"
+        android:background="#A1A1A1"
+        android:hint="Your feedback" />
+
+    <EditText
+        android:id="@+id/sugg"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="160dp"
+        android:background="#A1A1A1"
+        android:hint="Suggestions" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

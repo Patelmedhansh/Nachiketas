@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personalinfo"
+    android:background="@color/white">
+
+    <ImageButton
+        android:id="@+id/arrow_left"
+        android:layout_width="42dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/arrow"
+        />
+
+    <TextView
+        android:id="@+id/personal_in"
+        android:layout_width="261dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Personal Information"
+        android:textSize="20dp" />
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="362dp"
+        android:layout_height="342dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/rectangle6"
+        />
+
+    <TextView
+        android:id="@+id/basic_infor"
+        android:layout_width="138dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="99dp"
+        android:text="Basic Information"
+        android:fontFamily="@font/poppins_bold"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="45dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="162dp"
+        android:text="Name"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+    <TextView
+        android:id="@+id/date_of_bir"
+        android:layout_width="100dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="229dp"
+        android:text="Date of birth"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="55dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="299dp"
+        android:text="Gender"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="369dp"
+        android:text="Address"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+    <View
+        android:id="@+id/line_11"
+        android:layout_width="338dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/line11"
+        />
+
+    <View
+        android:id="@+id/line_12"
+        android:layout_width="338dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="271dp"
+        android:background="@drawable/line11"
+        />
+    <View
+        android:id="@+id/line_13"
+        android:layout_width="338dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="341dp"
+        android:background="@drawable/line11"
+        />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="362dp"
+        android:layout_height="260dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="443dp"
+        android:background="@drawable/rectangle7"
+        />
+
+    <TextView
+        android:id="@+id/contact_inf"
+        android:layout_width="158dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="469dp"
+        android:text="Contact Information"
+        android:fontFamily="@font/poppins_bold"
+        />
+
+    <TextView
+        android:id="@+id/phone_numbe"
+        android:layout_width="110dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="533dp"
+        android:text="Phone number"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+    <TextView
+        android:id="@+id/email_addre"
+        android:layout_width="100dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="595dp"
+        android:text="Email address"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+    <View
+        android:id="@+id/line_14"
+        android:layout_width="338dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="571dp"
+        android:background="@drawable/line11"
+        />
+
+    <View
+        android:id="@+id/line_15"
+        android:layout_width="338dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="636dp"
+        android:background="@drawable/line11"
+        />
+
+    <TextView
+        android:id="@+id/manage_emai"
+        android:layout_width="110dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="640dp"
+        android:text="Manage Email"
+        android:fontFamily="@font/poppins_bold"
+
+        />
+
+    <ImageButton
+        android:id="@+id/mail"
+        android:layout_width="18dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/mail"
+        />
+
+</RelativeLayout>

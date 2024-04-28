@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentFragment">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#f5f5f5"
+            tools:context=".MainActivity4">
+
+            <RelativeLayout
+                android:id="@+id/linear_wallet_1"
+                android:layout_width="370dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="12sp"
+                android:layout_marginTop="88dp"
+                android:background="@drawable/rectangle270">
+
+                <TextView
+                    android:id="@+id/total_wallet"
+                    android:layout_width="153dp"
+                    android:layout_height="16dp"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="18dp"
+                    android:text="TOTAL AMOUNT"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <ImageView
+                    android:id="@+id/rupee"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_below="@+id/total_wallet"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/rupee1" />
+
+                <TextView
+                    android:id="@+id/some_id"
+                    android:layout_width="30dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="47dp"
+                    android:layout_toRightOf="@+id/rupee"
+                    android:text="2800"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+
+                <ImageButton
+                    android:id="@+id/plus_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/group44"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/head"
+                    android:layout_width="136dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="89dp"
+                    android:text="Shipping address"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center_vertical"
+                    />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="302dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="105dp"
+                    android:text="Navrachana University
+Vasna-Bhayli main road, Vadodara, Gujarat"
+                    android:lineSpacingExtra="0sp"
+                    android:gravity="center_vertical"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/linear_wallet_2"
+                android:layout_width="376dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="287dp"
+                android:background="@drawable/rectangle271"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/payment_opt"
+                    android:layout_width="109dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Payment option"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/debit_and_c"
+                    android:layout_width="355dp"
+                    android:layout_height="33dp"
+                    android:layout_below="@id/payment_opt"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Debit and credit cards"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#424949"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/line_8"
+                    android:layout_width="355dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/debit_and_c"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/line4" />
+
+                <Button
+                    android:id="@+id/upi"
+                    android:layout_width="355dp"
+                    android:layout_height="33dp"
+                    android:layout_below="@id/line_8"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="12dp"
+                    android:backgroundTint="@color/white"
+                    android:text="UPI"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#424949"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/line_9"
+                    android:layout_width="355dp"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/upi"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/line9"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/check_out"
+                android:layout_width="172dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="104dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:text="Check out"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/black"
+                android:gravity="top"
+                android:textSize="32dp"
+                />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="ABOUT US"
+        android:textSize="36dp" />
+
+    <TextView
+        android:id="@+id/nachiketas_"
+        android:layout_width="339dp"
+        android:layout_height="425dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:text="Nachiketas is a revolutionary app dedicated to encouraging emerging NGOs and promoting small-scale businesses operated by non-privileged sections of society.
+                                                We understand the value of grassroots initiatives and the impact they can have on communities. Our mission is to bridge the gap between those who want to make a difference and those who need support."
+        android:gravity="center_horizontal|top"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+    <TextView
+        android:id="@+id/contact_us"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:text="CONTACT US"
+        android:textSize="24dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/email_xyz_n"
+        android:layout_width="273dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="600dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal|top"
+        android:text="Email-xyz@nachiketas.in
+       Phone no.-9876543210"
+        android:textSize="20dp" />
+
+</RelativeLayout>

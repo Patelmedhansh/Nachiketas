@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="844dp"
+    android:background="#FFFFFF"
+    android:clipToOutline="true"
+    tools:context=".login">
+
+    <View
+        android:id="@+id/logo1_1"
+        android:layout_width="240dp"
+        android:layout_height="220dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/nach" />
+
+    <TextView
+        android:id="@+id/log_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="264dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="top"
+        android:text="Sign up"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="308dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="top"
+        android:text="Already have an account? Login" />
+
+    <EditText
+        android:id="@+id/group_3"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="365dp"
+        android:background="#A1A1A1"
+        android:hint="Enter full name" />
+
+    <EditText
+        android:id="@+id/group_4"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="425dp"
+        android:background="#A1A1A1"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:id="@+id/group_6"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="485dp"
+        android:background="#A1A1A1"
+        android:hint="Enter Password" />
+
+    <EditText
+        android:id="@+id/group_9"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="545dp"
+        android:background="#A1A1A1"
+        android:hint="Confirm Password" />
+
+    <Button
+        android:id="@+id/group_10"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="619dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Sign up"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>

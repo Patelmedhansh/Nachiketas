@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialogbackground">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="844dp">
+
+        <TextView
+            android:id="@+id/log_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="top"
+            android:text="Register as NGO"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/group3"
+            android:layout_width="302dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="155dp"
+            android:background="#A1A1A1"
+            android:hint="Enter NGO name"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/group4"
+            android:layout_width="302dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="215dp"
+            android:background="#A1A1A1"
+            android:hint="Enter description"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/group6"
+            android:layout_width="302dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="275dp"
+            android:background="#A1A1A1"
+            android:hint="Enter address"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/group9"
+            android:layout_width="302dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="335dp"
+            android:background="#A1A1A1"
+            android:hint="Motive of NGO"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/group10"
+            android:layout_width="248dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="405dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Register"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NgoListFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ngolist"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/ngos"
+            android:layout_width="92dp"
+            android:layout_height="48dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="top"
+            android:text="NGOs"
+            android:textSize="32dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="80dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rl1"
+            android:layout_below="@+id/ngos"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/name1"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/des1"
+                android:layout_below="@id/name1"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/add1"
+                android:layout_below="@id/des1"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/motive1"
+                android:layout_below="@id/add1"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/group44"
+            android:layout_marginTop="82dp"
+            android:layout_marginLeft="240dp"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

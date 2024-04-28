@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "981994631546",
+    "project_id": "nachiketas-60d3a",
+    "storage_bucket": "nachiketas-60d3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981994631546:android:7ddb838f30b979eaeb66c3",
+        "android_client_info": {
+          "package_name": "com.example.home"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOc401NV1kqWrohGfkKkCohy20Bj7ddJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
